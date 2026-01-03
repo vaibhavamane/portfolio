@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="../static/assets/css/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="../static/assets/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <!--==================== EMAIL SERVICE ====================-->
+    <!-- Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://kit.fontawesome.com/0e14e18f67.js" crossorigin="anonymous"></script>
+    <!-- Email.JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init('gF3M_-jS8KuvoCpV4');
+        })();
+    </script>
+
+    <!--==================== CALENDAR SERVICE ====================-->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+    <!--==================== TITLE and Favicon ====================-->
+    <title>Vaibhav Amane Portfolio 👋</title>
+    <!-- <link rel="shortcut icon" type="image/png" href="assets/img/"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/assets/favicon_io/favicon-16x16.png">
+    <!-- <link rel="manifest" href="/site.webmanifest"> -->
+
+    <!-- MS Tile - for Microsoft apps-->
+    <meta name="msapplication-TileImage"
+        content="https://github.com/nucerl/myPortfolio/blob/main/assets/snaps/light.png?raw=true" />
+
+    <!-- HTML Meta Tags -->
+    <title>Welcome to my Portfolio👋</title>
+    <meta name="description"
+        content="High-level experience in nuclear safety analysis and multinational nuclear project development.">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://www.erolbicer.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Erol Bicer's Portfolio 👋">
+    <meta property="og:description"
+        content="High-level experience in nuclear safety analysis and multinational nuclear project development.">
+    <meta property="og:image" content="https://github.com/nucerl/myPortfolio/blob/main/assets/snaps/light.png?raw=true">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="erolbicer.com">
+    <meta property="twitter:url" content="https://www.erolbicer.com/">
+    <meta name="twitter:title" content="Erol Bicer's Portfolio 👋">
+    <meta name="twitter:description"
+        content="High-level experience in nuclear safety analysis and multinational nuclear project development.">
+    <meta name="twitter:image"
+        content="https://github.com/nucerl/myPortfolio/blob/main/assets/snaps/light.png?raw=true">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2367QRTG56"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2367QRTG56');
+    </script>
+
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Welcome to my Portfolio👋 </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme Change Buttons -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home" data-id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/vaibhavamane/" target="_blank"
+                            class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/vaibhavamane" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="mailto:vaibhavamane05@gmail.com">
+                            <i class="fas fa-envelope-open-text" style="color: #f9660b;"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="home__img" style="padding-left: 20px;">
+                        <a><img src="../static/assets/img/Profile.png" alt="Profile"></a>
+                    </div>
+
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I am Vaibhav Amane</h1>
+                        <h3 class="home__subtitle">Developer</h3>
+                        <p class="home__description">Data Analyst | Business Analyst | Power Bi developer</p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about" data-id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">Introduction</span>
+
+            <div class="my-custom-container text-center">
+                <div class="d-flex flex-row justify-content-center my-custom-content">
+                    <p>I am a Junior Data Analyst with hands-on experience in budget forecasting and 
+                        financial planning, working on enterprise-level projects for Hindustan Unilever Limited (HUL) 
+                        at Algorisys Technologies Pvt. Ltd. I specialize in IBM Planning Analytics (TM1), Cognos Analytics, Power BI, and Excel, 
+                        supporting monthly and annual forecast cycles through accurate data validation and reporting. <br />
+                        <br />
+                        My role involves collaborating closely with business users to understand requirements and 
+                        translate them into effective data models, dashboards, and reporting solutions. 
+                        I have strong experience in forecast input validation, cube reconciliation, system releases, 
+                        and production support, ensuring reliable and timely business insights.
+                        <br />
+                        <br />
+                        In addition to planning and BI tools, I leverage Python, SQL, and 
+                        analytical libraries such as NumPy, Pandas, Matplotlib, and Seaborn to automate data 
+                        processing and build reusable, self-service reporting solutions. I enjoy transforming 
+                        complex datasets into clear insights that support strategic decision-making. <br />
+                        <br />
+                        I am continuously learning and improving my skills, with a strong interest in data analytics, 
+                        financial planning, and business intelligence, and I aim to deliver accurate, scalable, and 
+                        user-focused data solutions. <br />
+                    </p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="space-above"></div> <!-- Add this empty div for space above -->
+
+                    <div class="d-flex justify-content-center about__buttons align-items-center flex-wrap w-100">
+                        <a download="" href="../static/assets/pdf/Vaibhav_Amane_Resume.pdf"
+                            class="button button--flex text-center" target="_blank">
+                            Download CV<i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills" data-id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">Hard Skills</span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!--==================== SKILLS 1 ====================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__titles">Data Analytics
+                                </h1>
+                                <!-- <span class="skills__subtitle">More than 8 years</span> -->
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"> Excel</h3>
+                                    <span class="skills__number">Intermediate</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percantage skills__20"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"> Power Bi</h3>
+                                    <span class="skills__number">Intermediate</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percantage skills__20"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name"> Tableau</h3>
+                                    <span class="skills__number">Intermediate</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percantage skills__20"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">SQL</h3>
+                                    <span class="skills__number">Intermediate</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percantage skills__20"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">IBM Planning Analytics</h3>
+                                    <span class="skills__number">Intermediate</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percantage skills__20"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">IBM Cogons Analytics</h3>
+                                    <span class="skills__number">Intermediate</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percantage skills__20"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--==================== SKILLS 2 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-vector-square skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__titles">Programming</h1>
+                                <!-- <span class="skills__subtitle">More than 2 years</span> -->
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__number"> Advanced</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percantage skills__80"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">C++</h3>
+                                    <span class="skills__number">Intermediate</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percantage skills__20"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Git and Github</h3>
+                                    <span class="skills__number">Intermediate</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percantage skills__20"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <!--==================== SKILLS 3 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-arrow skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__titles">Web Development</h1>
+                                <!-- <span class="skills__subtitle">More than 2 years</span> -->
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML 5</h3>
+                                    <span class="skills__number">Advanced</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percantage skills__60"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS 4</h3>
+                                    <span class="skills__number">Advanced</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percantage skills__40"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Bootstrap 5</h3>
+                                    <span class="skills__number">Intermediate</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percantage skills__20"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Responsive Web Design</h3>
+                                    <span class="skills__number">Intermediate</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percantage skills__40"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section">
+            <h2 class="section__title">Qualifications</h2>
+            <span class="section__subtitle">Academic Career</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target="#education">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Skills
+                    </div>
+                </div>
+                <div class="qualification__sections">
+                    <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!--==================== QUALIFICATION  1 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__tittle">B.E Computer Science and Engineering </h3>
+                                <span class="qualification__subtitle">Chhatrapati Shivaji Maharaj Institute of Technology
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2021 - 2024
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION  2 ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__tittle">Higher Secondary</h3>
+                                <span class="qualification__subtitle">S.E.S Polytechinc Solapur </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2019 - 2021
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!--==================== QUALIFICATION  3 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__tittle">Primary and Highschool </h3>
+                                <span class="qualification__subtitle">Shri Siddeshwar English Medium High School
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2007 - 2019
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION  4 ====================-->
+                        <div class="qualification__data">
+                            <!-- <div></div> -->
+
+                            <!-- <div>
+                                    <span class="qualification__rounder"></span> -->
+                            <!-- <span class="qualification__line"></span> -->
+                            <!-- </div> -->
+
+                            <!-- <div>
+                                    <h3 class="qualification__tittle">Nuclear Engineer</h3>
+                                    <span class="qualification__subtitle">Hacettepe University</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2008 - 2013
+                                    </div>
+                                </div> -->
+
+
+
+                        </div>
+
+                    </div>
+
+                    <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                    <div class="qualification__content" data-content id="work">
+                        <!--==================== QUALIFICATION  1 ====================
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__tittle">IBM Planning Analytics</h3>
+                                <span class="qualification__subtitle">Work Experience</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    DEC 2022 - 2023
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>-->
+
+                        <!--==================== QUALIFICATION  2 ====================
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__tittle">IBM Cogons Analytics</h3>
+                                <span class="qualification__subtitle">Work Experience</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    DEC 2023 - DEC 2024
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!--==================== QUALIFICATION  3 ====================
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__tittle">Python</h3>
+                                <span class="qualification__subtitle">Youtube and Udemy</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    DEC 2023 - DEC 2024
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION  4 ====================-->
+                        <!--<div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                 <span class="qualification__line"></span> 
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__tittle"><Td>Power Bi</Td> </h3>
+                                <span class="qualification__subtitle">Youtube & Udemy </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    AUG 2023 - SEP 2024
+                                </div>
+                            </div>
+
+                        </div>-->
+
+                       <!-- <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__tittle">IBM Planning Analytics</h3>
+                                <span class="qualification__subtitle">Youtube and Udemy</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    SEP 2023 - DEC 2024
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>-->
+
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                 <span class="qualification__line"></span> 
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__tittle">IBM Planning Analytics</h3>
+                                <span class="qualification__subtitle">On Work Experience</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Dec 2024 - Present
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__tittle">IBM Cogons Analytics</h3>  
+                                <span class="qualification__subtitle">On Work Experience</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Dec 2024 - Present
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__tittle">Data Structure and Algorithm </h3>
+                                <span class="qualification__subtitle">UDEMY & CodewithHarry</span>
+                               
+                            </div>
+
+                        </div>
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__tittle">Project</h3>
+                               <!-- <span class="qualification__subtitle">Youtube and Udemy</span>-->
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    July 2024 - Oct 2024
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__tittle">AWS</h3>
+                                <span class="qualification__subtitle">Youtube & Udemy</span>
+                               
+                            </div>
+                        </div>
+
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__tittle">Intern </h3>
+                                <span class="qualification__subtitle">Ai Variant</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Jan 2024 - Apr 2024
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__tittle">Tableau</h3>
+                                <span class="qualification__subtitle">Youtube & Udemy</span>
+                               
+                            </div>
+                        </div>
+
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__tittle"> SQL</h3>
+                                
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        
+
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__tittle">Power Bi</h3>
+                                <span class="qualification__subtitle">Youtube & Udemy</span>
+                               
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__tittle">Excel </h3>
+                                <span class="qualification__subtitle">Youtube & Udemy</span>
+                               
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__tittle">Project</h3>
+                                <span class="qualification__subtitle"></span>
+                               
+                            </div>
+                        </div>
+
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__tittle">Python Library</h3>
+                                <span class="qualification__subtitle">Youtube</span>
+                                <!--<div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                 
+                                </div>-->
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__tittle">Python </h3>
+                                <!--<div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                 
+                                </div>-->
+                            </div>
+                        </div>
+
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__tittle">Project </h3>
+                                <span class="qualification__subtitle">College Project</span>
+                               <!-- <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                            
+                                </div>-->
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__tittle">Bootstrap</h3>
+                               <!-- <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                  
+                                </div>-->
+                            </div>
+                        </div>
+
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__tittle">HTML, CSS and Javascript</h3>
+                                <!--<span class="qualification__subtitle">Nxtwave</span>-->
+                               <!-- <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                             
+                                </div>-->
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__tittle">C++</h3>
+                                <!--<div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                 
+                                </div>-->
+                            </div>
+                        </div>
+
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__tittle">C</h3>
+                                <span class="qualification__subtitle">College Study</span>
+                                <!--<div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                              Data
+                                </div>-->
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        
+
+
+
+                        
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+        </section>
+
+        <!--==================== PROJECTS ====================-->
+        <section class="projects section" id="projects" data-id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Involved Projects</span>
+
+            <div class="projects__container container grid">
+                <!--==================== PROJECTS 1 ====================-->
+                <div class="projects__content">
+                    <div>
+                        <i class="uil uil-swatchbook projects__icon"></i>
+                        <h3 class="projects__title">HR Analytics</h3>
+                        <a href="https://github.com/vaibhavamane/HR-Analytics" target="_blank" style="color: #f9680f;">Click here</a>
+                    </div>
+                </div>
+                
+                <!--==================== PROJECTS 2 ====================-->
+                <div class="projects__content">
+                    <div>
+                        <i class="uil uil-swatchbook projects__icon"></i>
+                        <h3 class="projects__title">L and T - Web Development</h3>
+                        <a href="https://github.com/AshwinHarishP/L-T-Projects/tree/a0d80a16ca91beb92c653ab9aa6a5349448aac80/Web%20Design%20and%20Developmentt" target="_blank" style="color: #f9680f;">Click here</a>
+                    </div>
+                </div>
+
+                <!--==================== PROJECTS 3 ====================-->
+                <div class="projects__content">
+                    <div>
+                        <i class="uil uil-swatchbook projects__icon"></i>
+                        <h3 class="projects__title">L and T - DSA</h3>
+                        <a href="https://github.com/AshwinHarishP/L-T-Projects/tree/a0d80a16ca91beb92c653ab9aa6a5349448aac80/Core%20Java" target="_blank" style="color: #f9680f;">Click here</a>
+                    </div>
+                </div>
+
+                <!--==================== PROJECTS 4 ====================-->
+                <div class="projects__content">
+                    <div>
+                        <i class="uil uil-swatchbook projects__icon"></i>
+                        <h3 class="projects__title">Web Development - DevTown</h3>
+                        <a href="https://github.com/AshwinHarishP/Dev-Town-Projects.git" target="_blank" style="color: #f9680f;">Click here</a>
+                    </div>
+                </div>
+
+                <!--==================== PROJECTS 5 ====================-->
+                <div class="projects__content">
+                    <div>
+                        <i class="uil uil-swatchbook projects__icon"></i>
+                        <h3 class="projects__title">Python Projects</h3>
+                        <a href="https://github.com/AshwinHarishP/Python-Projects.git" target="_blank" style="color: #f9680f;">Click here</a>
+                    </div>
+                </div>
+
+                <!--==================== PROJECTS 6 ====================-->
+                <div class="projects__content">
+                    <div>
+                        <i class="uil uil-swatchbook projects__icon"></i>
+                        <h3 class="projects__title">Food Munch Restaurant</h3>
+                        <a href="https://github.com/AshwinHarishP/Food_Munch_Restaurant.git" target="_blank" style="color: #f9680f;">Click here</a>
+                    </div>
+                </div>
+
+                <!--==================== PROJECTS 7 ====================-->
+                <div class="projects__content">
+                    <div>
+                        <i class="uil uil-swatchbook projects__icon"></i>
+                        <h3 class="projects__title">Front End Development</h3>
+                        <a href="https://github.com/AshwinHarishP/Web-Page-Design-Projects-NxtWave.git" target="_blank" style="color: #f9680f;">Click here</a>
+                    </div>
+                </div>
+
+                <!--==================== PROJECTS 8 ====================-->
+                <div class="projects__content">
+                    <div>
+                        <i class="uil uil-swatchbook projects__icon"></i>
+                        <h3 class="projects__title">World Skills Projects</h3>
+                        <a href="https://github.com/AshwinHarishP/World-Skill-Projects-Web-Development.git" target="_blank" style="color: #f9680f;">Click here</a>
+                    </div>
+                </div>
+
+                <!--==================== PROJECTS 9 ====================-->
+                <div class="projects__content">
+                    <div>
+                        <i class="uil uil-swatchbook projects__icon"></i>
+                        <h3 class="projects__title">Power BI</h3>
+                        <a href="https://github.com/AshwinHarishP/Microsoft-Power-BI-Projects.git" target="_blank" style="color: #f9680f;">Click here</a>
+                    </div>
+                </div>
+
+                <!--==================== PROJECTS 10 ====================-->
+                <div class="projects__content">
+                    <div>
+                        <i class="uil uil-swatchbook projects__icon"></i>
+                        <h3 class="projects__title">Nxtwave Projects</h3>
+                        <a href="https://github.com/AshwinHarishP/Website-Integration-Projects-NxtWave.git" target="_blank" style="color: #f9680f;">Click here</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PAPERS ====================-->
+        <!--<section class="paper section" id="paper" data-id="paper">
+            <h2 class="section__title">Patents</h2>
+            <span class="section__subtitle">Published Patents</span>
+            <div class="projects__container container grid">
+                ==================== PROJECTS 1 ====================
+                <div class="projects__content">
+                    <div>
+                        <i class="uil uil-swatchbook projects__icon"></i>
+                        <h3 class="projects__title">Liquid Quality Monitoring System</h3>
+                        <a href="https://drive.google.com/file/d/1a6RfWC31LoZVEk0X3MS0CGlwy-X4blCP/view?usp=drive_link" target="_blank" style="color: #f9680f;">Click here</a>
+                    </div>
+                </div>
+
+        </section>-->
+
+        <!--==================== REQUEST MEETING ====================-->
+        <!-- <section class="project section" id="meeting">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">Do you have any questions?</h2>
+                        <p class="project__description">Schedule a meeting and lets discuss!</p>
+                         <a href="#meeting" class="button button--flex button--white">
+                                Send a Request
+                                <i class="uil uil-message project_icon button__icon"></i>
+                            </a> -->
+                        <!-- <a href="#meeting"
+                            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/erolbicer/onlinemeeting?hide_gdpr_banner=1&text_color=7c716a&primary_color=f9660b'});return false;"
+                            class="button button--flex button--white">
+                            Send a Request
+                            <i href="#meeting" class="uil uil-message project_icon button__icon"></i>
+                        </a>
+                    </div>
+                    <img src="assets/img/perfil.png" alt="Erol Bicer" class="project__img">
+                </div>
+            </div>
+        </section> --> 
+
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact" data-id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in Touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__subtitle">+91 8275578011</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <!-- <span class="contact__subtitle">erolbicer@live.com</span> -->
+                            <p><a class="contact__subtitle" href="mailto:erolbicer@live.com">vaibhavamane05@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Mumbai, Maharashtra, India</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Full Name</label>
+                            <input type="text" placeholder="Enter full name" class="contact__input" id="fullName"
+                                onkeyup="validateName()">
+                            <span id="name-error" class="contact__subtitle"></span>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" placeholder="Enter email address" class="contact__input" id="email_id"
+                                onkeyup="validateEmail()">
+                            <span id="email-error" class="contact__subtitle"></span>
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Subject</label>
+                        <input type="text" id="subject" placeholder="Enter a subject line" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" cols="0" rows="7" placeholder="Enter your message" class="contact__input"
+                            id="message" onkeyup="validateMessage()"></textarea>
+                        <span id="message-error" class="contact__subtitle"></span>
+                    </div>
+                    <div>
+                        <a onclick="return SendMail()" class="button button--flex">
+                            Send Message
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </form> -->
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ====================
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__title">E</a><br>
+                    <span class="footer__subtitle">Nuclear Engineer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#projects" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#paper" class="footer__link">Papers</a>
+                    </li>
+                    <li>
+                        <a href="#testimonials" class="footer__link">References</a>
+                    </li>
+                    <li>
+                        <a href="#videos" class="footer__link">Videos</a>
+                    </li>
+                    <li>
+                        <a href="#meeting" class="footer__link">Meeting</a>
+                    </li>
+                    <li>
+                        <a href="#presentation" class="footer__link">Presentations</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/erolbicer/" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+
+                    <a href="https://www.researchgate.net/profile/Erol-Bicer/research" target="_blank"
+                        class="footer__social">
+                        <i class="uil uil-book-open"></i>
+                    </a>
+
+                    <a href="https://github.com/nucerl" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; All rights reserved.</p>
+        </div>
+    </footer> -->
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="../static/assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="../static/assets/js/main.js"></script>
+</body>
+
+</html>
